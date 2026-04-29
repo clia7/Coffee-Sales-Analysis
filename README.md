@@ -2,6 +2,8 @@
 
 This project provides a comprehensive analysis of coffee shop sales data. It combines the power of **Python (Pandas)** for deep data exploration and feature engineering with an **Excel Dashboard** for business-ready visualizations.
 
+![Excel Dashboard Preview](Coffee_Sales_Dashboard.png)
+
 ## 📊 Project Overview
 
 The goal of this analysis is to identify sales patterns, top-performing products, and customer behavior to derive actionable business insights.
