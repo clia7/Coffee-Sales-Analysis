@@ -22,8 +22,6 @@ This repository contains a comprehensive Exploratory Data Analysis (EDA) of a co
 
 * Revenue Trends: Monthly growth and "Morning vs. Afternoon vs. Night" comparisons.
 
-* Product Performance: Top 5 products by revenue and volume.
-
 ## 🛠️ Tech Stack
 * Python (Pandas, NumPy)
 
