@@ -1,35 +1,33 @@
-# ☕ Coffee Sales Analysis
-
-This project provides a comprehensive analysis of coffee shop sales data. It combines the power of **Python (Pandas)** for deep data exploration and feature engineering with an **Excel Dashboard** for business-ready visualizations.
-
+☕ Coffee Sales Analysis – From Data to Insights
+This repository contains a comprehensive Exploratory Data Analysis (EDA) of a coffee shop dataset. The project translates raw sales data into actionable business recommendations regarding pricing, product trends, and seasonal growth.
 ![Excel Dashboard Preview](Coffee_Sales_Dashboard.png)
 
-## 📊 Project Overview
+🚀 Key Insights & Business Recommendations
+Top Performers: Latte and Americano with Milk are the primary revenue drivers.
 
-The goal of this analysis is to identify sales patterns, top-performing products, and customer behavior to derive actionable business insights.
+Action: A slight price increase for these "favorites" could significantly boost total revenue with minimal customer churn.
 
-### Key Components:
-1. **Python EDA (`coffee-sales-eda.ipynb`)**: 
-   - Data cleaning and transformation.
-   - Feature engineering (e.g., extracting weekend vs. weekday patterns).
-   - Statistical analysis of product performance (Revenue, Sales Count, and Average Price).
-2. **Excel Dashboard**:
-   - Summary of key performance indicators (KPIs).
-   - Visual representation of sales trends.
+Seasonal Trends: Significant "Summer Slump" and "Holiday Decline" (Dec/Jan) were identified.
 
-## 💡 Key Business Insights
+Action: Implement "Summer Refresh" specials and "Holiday Bundles" to stabilize revenue during these periods.
 
-* **Revenue Leader**: The **Latte** is the primary revenue driver, contributing the highest total earnings.
-* **Volume King**: The **Americano with Milk** has the highest transaction count, making it the most frequently sold item.
-* **Price Sensitivity**: Analysis of the **Espresso** reveals a lower sales volume despite its popularity in coffee culture. The high average price point suggests customer price sensitivity for this specific product.
-* **Time Patterns**: Data transformation was used to distinguish between weekday and weekend sales (Analysis ongoing).
+Growth: March 2025 showed a positive Year-over-Year (YoY) growth compared to March 2024, even with incomplete data for the current month.
 
-## 🛠️ Tools Used
-* **Python**: Data processing with `Pandas` & `Matplotlib`.
-* **Jupyter Notebook**: For documented exploratory data analysis (EDA).
-* **Microsoft Excel**: For final dashboarding and business reporting.
+Peak Hours: Sales peak in the morning and afternoon, with a significant drop in black coffee demand during evening hours.
 
-## 🚀 How to Use
-1. Clone the repository.
-2. Open `coffee-sales-eda.ipynb` to see the Python workflow.
-3. Check the `.xlsx` file for the visual business report.
+📊 Visualizations Included
+Sales Rhythms: Heatmaps showing peak hours and weekday patterns.
+
+Revenue Trends: Monthly growth and "Morning vs. Afternoon vs. Night" comparisons.
+
+Product Performance: Top 5 products by revenue and volume.
+
+🛠️ Tech Stack
+Python (Pandas, NumPy)
+
+Data Visualization: Seaborn, Matplotlib
+
+📂 Project Structure
+coffee-sales-eda.ipynb: The main analysis notebook with detailed code and commentary.
+
+index.csv: The raw dataset containing sales records.
